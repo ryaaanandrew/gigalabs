@@ -11,7 +11,6 @@ const PORT = 3001;
 
 app.use(cors());
 
-
 app.get('/products', (req, res) => {
   res.json(JSON.stringify(productData));
 });
